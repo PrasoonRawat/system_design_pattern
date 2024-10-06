@@ -87,6 +87,7 @@ public:
 int main() {
     fileInterface* file1 = new TextFile("Document1");
     fileInterface* file2 = new ImageFile("Image1");
+    
     fileInterface* file3 = new ZipFile("Archive1");
 
     Folder* folder = new Folder("MyFolder");
