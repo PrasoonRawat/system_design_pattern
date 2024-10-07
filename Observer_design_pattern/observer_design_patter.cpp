@@ -57,7 +57,6 @@ void Youtube::uploadVideo(const string& videoTitle) {
     notifySubscribers();
 }
 
-// Example usage
 int main() {
     Youtube channel("Mr. Beast");
     Subscriber Prasoon("prasoon");
